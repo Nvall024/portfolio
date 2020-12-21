@@ -1,39 +1,61 @@
 body{
   margin: 0;
   text-align: center;
+  background-color: #d6c8ff;
 }
 
 h1{
   margin-top: 0;
   font-size: 5em;
-  color: #ffabe1;
+  color: #fef0ff;
 }
 
 h2{
-  color: #a685e2;
+  color: #fef0ff;
 }
 
 .top-container{
-  background-color: #6155a6;
+  background-color: #c79ecf;
   padding-top: 100px;
 
 
 }
 
+.profile{
+
+  padding: 50px;
+}
+
+.skills{
+  padding-top: 200px;
+}
+
+.skill-row{
+  padding: 100px;
+}
+
 .profile-img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  float: left;
-  margin-right: 30px;
+
 
 }
 
 .code-img{
-  width: 25%;
+  float: right;
+  width: 200px;
+  height: 200px;
 
 }
 
 .bootstrap-logo{
   width: 25%;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.contact-me{
+  padding-top: 200px;
 }
