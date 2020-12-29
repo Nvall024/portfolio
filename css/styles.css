@@ -1,61 +1,74 @@
 body{
   margin: 0;
   text-align: center;
-  background-color: #d6c8ff;
+  background-color: #583d72;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+padding: 3% 15%;
 }
 
 h1{
+  font-family: 'Saira Extra Condensed', sans-serif;
   margin-top: 0;
-  font-size: 5em;
-  color: #fef0ff;
+  font-size: 10em;
+  color: #ffba93;
 }
 
 h2{
-  color: #fef0ff;
+  color: #ffba93;
+}
+
+p{
+  color: #ffba93;
+}
+
+.nav-link{
+  color: #9f5f80;
+  font-weight: bold;
+}
+
+a:hover{
+color: #ff8e71;
 }
 
 .top-container{
-  background-color: #c79ecf;
   padding-top: 100px;
-
-
 }
 
-.profile{
-
-  padding: 50px;
+.mini-me {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
 }
 
-.skills{
-  padding-top: 200px;
-}
-
-.skill-row{
+.web{
   padding: 100px;
 }
 
-.profile-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-
-
-}
-
-.code-img{
-  float: right;
-  width: 200px;
-  height: 200px;
-
-}
-
-.bootstrap-logo{
-  width: 25%;
-  float: left;
-  width: 200px;
-  height: 200px;
+.about-me{
+  padding: 100px;
 }
 
 .contact-me{
-  padding-top: 200px;
+  padding-top: 100px;
+}
+
+ 
+
+.my-links{
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 20px;
+  color: #ffba93;
+  border: 1px solid #ffba93;
+  border-radius: 50%;
+}
+
+.my-links:hover{
+  color: #fff;
+  border: 1px solid #fff;
 }
