@@ -11,7 +11,7 @@ padding: 3% 15%;
 
 hr{
   color: #ffba93;
-  height: 50px;;
+  height: 50px;
 }
 
 h1{
@@ -49,29 +49,50 @@ color: #ff8e71;
   padding: 30px;
 }
 
+.web-content{
+  padding: 500px 0;
+}
+
 .web{
   padding: 100px;
 }
 
-.about-me{
-  padding: 100px;
+.web-link{
+  color: #ffba93;
+  margin: 50px;
+  display: inline-block;
+  border: 1px solid #ffba93;
+  border-radius: 50%;
+  padding: 50px;
+
+}
+
+.web-link:hover{
+  color:#9f5f80;
+  border: 1px solid #9f5f80;
+}
+
+.about-content{
+  padding: 500px 0;
 }
 
 .contact-me{
   padding-top: 100px;
 }
 
-.button-link{
-  margin: 5% 3% 3% 0;
-  list-style: none;
-  display: inline-block;
+.card-footer{
+  background-color: #ffba93;
 }
 
-.icon{
+.card-link{
+  color: #9f5f80;
+}
+
+.card-link:hover{
   color: #ff8e71;
+
 }
 
-.icon:hover{
-  color: #ffba93 ;
-
+.card-text{
+  color: #9f5f80;
 }
